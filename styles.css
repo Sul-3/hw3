@@ -124,7 +124,7 @@ margin: 1rem auto;
 padding: 0.8rem;
 border: 0.1rem solid #f5c6d6;
 background-color: #ffffff;
-width: 85%;
+width: 65%;
 text-align: center;
 }
 
@@ -165,26 +165,22 @@ section a {
 font-weight: bold;
 }
 
-nav a {
+nav a,
+nav a:link,
+nav a:visited {
+display: inline-block;
 color: #ffffff;
 font-weight: bold;
 padding: 0.3rem 0.5rem;
 text-transform: uppercase;
 }
 
-nav a:visited {
-color: #ffffff;
-}
-
-nav a:hover {
+nav a:hover,
+nav a:active {
 color: #fff0f5;
 background-color: #c94f7c;
 }
 
 section {
 min-height: 10vh;
-}
-
-a {
-color: #c94f7c;
 }
