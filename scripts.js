@@ -37,12 +37,12 @@ window.addEventListener("DOMContentLoaded", function () {
   if (quote) {
     quote.addEventListener("mouseover", function () {
       quote.style.backgroundColor = "#ffd6e0";
-      quote.style.fontStyle = "normal";
+      quote.style.fontStyle = "italic";
     });
 
     quote.addEventListener("mouseout", function () {
       quote.style.backgroundColor = "#fff0f5";
-      quote.style.fontStyle = "italic";
+      quote.style.fontStyle = "normal";
     });
   }
 });
