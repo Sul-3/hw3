@@ -155,6 +155,10 @@ font-weight: bold;
 padding: 0.2rem;
 }
 
+#top,
+#start {
+  background-color: #ffe4ec;
+}
 
 section a {
 font-weight: bold;
