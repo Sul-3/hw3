@@ -1,6 +1,4 @@
-// =======================
-// 1. Form Validation (Contact Page)
-// =======================
+
 function validateForm() {
   var name = document.getElementById("name");
   var email = document.getElementById("email");
@@ -13,24 +11,17 @@ function validateForm() {
   }
 }
 
-
-// =======================
-// 2. Toggle Project Description (Projects Page)
-// =======================
 function toggleDescription(id) {
   var desc = document.getElementById(id);
 
-  if (desc.style.display === "none") {
-    desc.style.display = "block";
-  } else {
+  if (desc.style.display === "" || desc.style.display === "block") {
     desc.style.display = "none";
+  } else {
+    desc.style.display = "block";
   }
 }
 
 
-// =======================
-// 3. CV Quote Hover Effect
-// =======================
 window.addEventListener("DOMContentLoaded", function () {
   var quote = document.getElementById("quote");
 
@@ -48,9 +39,6 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// =======================
-// 4. Page Load Date (Homepage)
-// =======================
 window.onload = function () {
   var footer = document.getElementsByTagName("footer")[0];
 
